@@ -275,6 +275,20 @@ main {
   }
 }
 
+.hero-container form .email-error {
+  display: none;
+  padding-left: 10px;
+  color: red;
+  font-weight: 700;
+}
+
+.hero-container form .email-success {
+  display: none;
+  padding-left: 10px;
+  color: greenyellow;
+  font-weight: 700;
+}
+
 .hero-container .dot-bg {
   z-index: 10;
   position: absolute;
